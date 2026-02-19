@@ -5,30 +5,31 @@ This project presents the mathematical modeling and numerical analysis of a 3-DO
 # Forward Kinematics – 3 DOF Robot Arm (3D)
 
 ## Link Lengths
- L1 = 15 cm
- L2 = 10 cm
- L3 = 4 cm
+- L1 = 15 cm
+- L2 = 10 cm
+- L3 = 4 cm
 
 ## Assumed Joint Angles
-θ1 = 45°
-θ2 = 65°
-θ3 = -70°
+- θ1 = 45°
+- θ2 = 65°
+- θ3 = -70°
 
 ---
 
 ## Forward Kinematics Equations
 
-x = L1*cos(θ1)
-  + L2*cos(θ1 + θ2)
-  + L3*cos(θ1 + θ2 + θ3)
+x = 
+- L1*cos(θ1)
+- L2*cos(θ1 + θ2)
+- L3*cos(θ1 + θ2 + θ3)
 
-y = L1*sin(θ1)
-  + L2*sin(θ1 + θ2)
-  + L3*sin(θ1 + θ2 + θ3)
+y = 
+- L1*sin(θ1)
+- L2*sin(θ1 + θ2)
+- L3*sin(θ1 + θ2 + θ3)
 
-z = L1
-  + L2*sin(θ2)
-  + L3*sin(θ2 + θ3)
+z = 
+L1+L2*sin(θ2)+L3*sin(θ2 + θ3)
 
 φ = θ1 + θ2 + θ3
 

@@ -5,9 +5,9 @@ This project presents the mathematical modeling and numerical analysis of a 3-DO
 # Forward Kinematics – 3 DOF Robot Arm (3D)
 
 ## Link Lengths
-  L1 = 15 cm
-  L2 = 10 cm
-  L3 = 4 cm
+ L1 = 15 cm
+ L2 = 10 cm
+ L3 = 4 cm
 
 ## Assumed Joint Angles
 θ1 = 45°
